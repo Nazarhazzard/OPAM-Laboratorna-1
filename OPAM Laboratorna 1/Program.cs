@@ -88,7 +88,7 @@ namespace SportsClubMenuApp_Extended
             {
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("=== ГОЛОВНЕ МЕНЮ СПОРТИВНОГО КЛУБУ (Розширене) ===");
+                Console.WriteLine("=== ГОЛОВНЕ МЕНЮ СПОРТИВНОГО КЛУБУ ===");
                 Console.ResetColor();
 
                 Console.WriteLine("1. Ввести/додати товари");
@@ -313,7 +313,6 @@ namespace SportsClubMenuApp_Extended
             Pause();
         }
 
-     
         static void ShowStatistics()
         {
             Console.Clear();
@@ -392,7 +391,6 @@ namespace SportsClubMenuApp_Extended
             Pause();
         }
 
-      
         static void SaveProductsToFile()
         {
             try
